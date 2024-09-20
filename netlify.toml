@@ -1,3 +1,9 @@
 [build]
-command = "npm run build"
-publish = "dist"
+  command = "vite build"          # Comando para build do seu projeto (neste caso, usando Vite)
+  functions = "netlify/functions" # Diretório para funções serverless
+  publish = "dist"                # Diretório onde os arquivos de build são publicados (gerados pelo Vite)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
