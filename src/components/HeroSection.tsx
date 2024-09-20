@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/heroSection.css';
 import '../styles/solutions.css'; // Para o componente Solutions
 import RectangleOne from '../assets/images/RectangleOne.png';
