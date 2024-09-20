@@ -1,13 +1,20 @@
-import '../styles/solutions.css';
-import '@fortawesome/fontawesome-free/css/all.min.css'; // Certifique-se de que a importação está aqui
+import "../styles/solutions.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Solutions = () => {
   return (
     <section className="solutions container py-lg">
       <h2>Do melhor jeito para você!</h2>
-      <p>
-       Viajens para o dia a dia colaborando com a natureza.
+      <p style={{ color: "#ffffff" }}>
+        Viajens para o dia a dia colaborando com a natureza.
       </p>
+      
+      {/* Box de Pesquisa */}
+      <div className="search-box">
+        <input type="text" placeholder="Pesquisar motoristas próximos de mim" />
+        <button className="search-btn">Pesquisar</button>
+      </div>
+
       <div className="even-columns gap-1">
         <div className="card">
           <i className="fas fa-car" style={{ fontSize: '3rem', marginBottom: '10px' }}></i>
