@@ -1,0 +1,33 @@
+/* heroSection.css */
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff; /* Fundo branco para a seção */
+    padding: 50px 0; /* Espaçamento na seção */
+}
+
+/* Estilos para as imagens dos retângulos */
+.rectangle-one {
+    position: absolute;
+    top: 20px; /* Ajuste a posição vertical */
+    left: 20px; /* Ajuste a posição horizontal */
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    z-index: 1; /* Certifique-se de que esteja atrás do conteúdo */
+}
+
+.rectangle-two {
+    position: absolute;
+    top: 20px; /* Ajuste a posição vertical */
+    right: 20px; /* Ajuste a posição horizontal */
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    z-index: 1; /* Certifique-se de que esteja atrás do conteúdo */
+}
+
+.hero-content {
+    position: relative; /* Para garantir que o conteúdo fique acima das imagens */
+    z-index: 2; /* Coloca o conteúdo acima de tudo */
+    text-align: center; /* Alinha o texto ao centro */
+}
